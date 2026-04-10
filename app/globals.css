@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(142, 191, 214, 0.2), transparent 26%),
+    linear-gradient(180deg, rgba(248, 247, 242, 0.96), rgba(248, 247, 242, 1));
+}
+
+* {
+  border-color: rgba(31, 41, 55, 0.08);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+a,
+button,
+input,
+textarea,
+summary {
+  outline-offset: 3px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.anchor-section {
+  scroll-margin-top: 84px;
+}
+@media (min-width: 768px) {
+  .anchor-section {
+    scroll-margin-top: 96px;
+  }
+}
+
+.embed-responsive iframe {
+  width: 100%;
+  height: 360px;
+  border: 0;
+}
+@media (min-width: 768px) {
+  .embed-responsive iframe {
+    height: 460px;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.premium-card {
+  @apply rounded-[28px] border border-white/50 bg-white/80 shadow-card backdrop-blur-sm;
+}
+
+.section-divider {
+  position: relative;
+}
+.section-divider::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -1px;
+  height: 1px;
+  width: min(1240px, calc(100% - 2rem));
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, rgba(24, 52, 92, 0.14), transparent);
+}
+
+.soft-ring {
+  box-shadow:
+    0 0 0 1px rgba(24, 52, 92, 0.05),
+    0 18px 48px rgba(24, 52, 92, 0.12);
+}
+
+.motion-orb {
+  filter: blur(6px);
+  opacity: 0.8;
+}
+
+.reveal-start {
+  opacity: 0;
+  transform: translateY(22px);
+}
+
+.reveal-end {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.frosted-border {
+  border: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+.hero-glow {
+  background:
+    radial-gradient(circle at top, rgba(142, 191, 214, 0.22), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(216, 177, 30, 0.16), transparent 24%);
+}
+
+.accordion-summary::-webkit-details-marker {
+  display: none;
+}

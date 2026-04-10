@@ -1,0 +1,20 @@
+<svg width="960" height="1080" viewBox="0 0 960 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="1080" rx="40" fill="#F8F7F2"/>
+  <path d="M0 922C147 845 267 860 395 922C536 990 704 978 960 807V1080H0V922Z" fill="#E9EDF2"/>
+  <path d="M73 285C144 190 274 138 406 173C528 205 611 289 675 407C711 473 751 542 829 575" stroke="#8EBFD6" stroke-width="16" stroke-linecap="round"/>
+  <path d="M182 779C260 671 320 602 361 573C420 531 485 503 551 489C627 474 703 482 797 521" stroke="#D8B11E" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <path d="M532 290C532 245 567 210 612 210C657 210 692 245 692 290C692 329 665 361 628 368L646 449C653 483 644 518 620 541C596 564 562 572 530 562L455 539C420 530 390 507 373 475L335 406C322 383 330 355 353 342C377 328 405 334 423 357L462 407L525 422L511 338C506 313 512 291 532 290Z" fill="#18345C" opacity="0.92"/>
+  <path d="M347 335C347 280 392 236 447 236C503 236 548 280 548 335C548 390 503 435 447 435C392 435 347 390 347 335Z" fill="#234C7A"/>
+  <path d="M455 445L407 593C394 633 360 661 318 666L221 677C193 681 169 658 169 630C169 602 190 579 218 576L287 566L338 451" fill="#234C7A"/>
+  <path d="M588 550L697 662C718 684 718 719 696 741C674 763 639 763 618 741L501 625" fill="#18345C"/>
+  <path d="M394 662L471 807C487 838 474 876 443 892C412 908 373 895 357 864L282 718" fill="#18345C"/>
+  <path d="M604 637L736 812C757 839 752 878 725 899C698 920 659 915 638 888L528 734" fill="#234C7A"/>
+  <circle cx="446" cy="334" r="61" fill="#F8F7F2"/>
+  <path d="M417 323C424 298 448 280 474 280C505 280 531 304 531 335C531 366 505 390 474 390C446 390 422 372 416 346" fill="#8EBFD6"/>
+  <rect x="57" y="84" width="202" height="108" rx="28" fill="white"/>
+  <text x="90" y="132" font-size="20" fill="#18345C" font-family="Arial, sans-serif" font-weight="700">Rehabilitation</text>
+  <text x="90" y="160" font-size="16" fill="#1F2937" font-family="Arial, sans-serif">Calm, precise, personal.</text>
+  <rect x="661" y="868" width="217" height="118" rx="32" fill="white"/>
+  <text x="694" y="924" font-size="20" fill="#18345C" font-family="Arial, sans-serif" font-weight="700">Movement First</text>
+  <text x="694" y="953" font-size="16" fill="#1F2937" font-family="Arial, sans-serif">Restore strength and confidence.</text>
+</svg>

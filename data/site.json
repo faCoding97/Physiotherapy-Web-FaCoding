@@ -1,0 +1,537 @@
+{
+  "theme": {
+    "brand": "#18345C",
+    "brandSecondary": "#234C7A",
+    "accent": "#D8B11E",
+    "bg": "#F8F7F2",
+    "surface": "#E9EDF2",
+    "text": "#1F2937",
+    "highlight": "#8EBFD6"
+  },
+  "layout": {
+    "containerMax": "1240px",
+    "sectionY": "py-20 md:py-28",
+    "heroHeight": "min-h-[88svh]"
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Conditions Treated",
+      "href": "/conditions-treated"
+    },
+    {
+      "label": "Referrals",
+      "href": "/referrals"
+    },
+    {
+      "label": "Locations",
+      "href": "/locations"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Premium physiotherapy • rehabilitation • wellness",
+    "title": "Expert physiotherapy care in Mossel Bay and Dana Bay, designed to restore movement with confidence.",
+    "description": "Moss & Bay Physiotherapy combines precise clinical assessment, personalised rehabilitation, and a calm patient-first experience to help you move better, recover well, and return to the life you love.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Call / WhatsApp",
+      "href": "https://wa.me/27725550188"
+    },
+    "image": "/images/hero-rehab.svg",
+    "alt": "Elegant abstract rehabilitation illustration with movement-inspired forms"
+  },
+  "trust": {
+    "title": "A refined, evidence-based approach to pain relief, rehabilitation, and long-term movement health.",
+    "description": "We provide premium physiotherapy care for adults with pain, athletes, post-operative patients, women’s health cases, vestibular concerns, balance challenges, and neurological rehabilitation needs. Every session is led with clinical clarity, compassionate hands-on care, and a clear plan for progress.",
+    "stats": [
+      {
+        "label": "Years of combined clinical experience",
+        "value": "15+"
+      },
+      {
+        "label": "Focused treatment sessions",
+        "value": "1:1"
+      },
+      {
+        "label": "Practice locations",
+        "value": "2"
+      },
+      {
+        "label": "Patient-centred treatment plans",
+        "value": "100%"
+      }
+    ],
+    "qualifications": [
+      "Registered physiotherapy professionals with a premium patient-care philosophy",
+      "Evidence-based treatment planning and measurable rehabilitation goals",
+      "Experience across musculoskeletal, sports, vestibular, neurological, and women’s health rehabilitation",
+      "Clear communication with doctors, specialists, and referring practitioners"
+    ]
+  },
+  "services": [
+    {
+      "id": "musculoskeletal-treatment",
+      "title": "Musculoskeletal treatment",
+      "short": "Precise assessment and hands-on treatment for joint, muscle, and movement dysfunction.",
+      "description": "Targeted treatment for pain, stiffness, overload, postural strain, and movement restrictions with a practical recovery plan.",
+      "icon": "stethoscope"
+    },
+    {
+      "id": "back-neck-pain",
+      "title": "Back and neck pain",
+      "short": "Evidence-based treatment for spinal pain, mobility loss, and recurring flare-ups.",
+      "description": "From desk-related strain to disc irritation and persistent neck tension, treatment is tailored to restore ease and confidence in movement.",
+      "icon": "spine"
+    },
+    {
+      "id": "sports-injuries",
+      "title": "Sports injuries",
+      "short": "Performance-aware rehabilitation for active individuals returning to training and competition.",
+      "description": "We guide recovery after sprains, tendon overload, muscle tears, and training setbacks with progressive rehab that respects your sport.",
+      "icon": "dumbbell"
+    },
+    {
+      "id": "pain-management",
+      "title": "Pain management",
+      "short": "Clinical pain education and movement strategies for persistent or complex pain presentations.",
+      "description": "We combine symptom relief, nervous-system aware care, and graded rehabilitation to reduce fear, improve function, and rebuild capacity.",
+      "icon": "sparkles"
+    },
+    {
+      "id": "rehabilitation",
+      "title": "Rehabilitation",
+      "short": "Structured post-injury and post-operative rehabilitation with milestone-based progression.",
+      "description": "A premium rehabilitation pathway that supports safe healing, restores function, and builds resilience for daily life and sport.",
+      "icon": "heart-pulse"
+    },
+    {
+      "id": "hand-therapy",
+      "title": "Hand therapy",
+      "short": "Restorative care for hand, wrist, and forearm pain, stiffness, and post-injury recovery.",
+      "description": "Focused treatment for grip dysfunction, tendon irritation, post-fracture stiffness, and fine-motor rehabilitation.",
+      "icon": "hand"
+    },
+    {
+      "id": "lymphatic-drainage",
+      "title": "Lymphatic drainage",
+      "short": "Gentle, clinically informed support for swelling, fluid retention, and comfort.",
+      "description": "Thoughtful lymphatic care to reduce congestion and support healing, especially after surgery or inflammatory flare-ups.",
+      "icon": "waves"
+    },
+    {
+      "id": "vertigo-treatment",
+      "title": "Vertigo treatment",
+      "short": "Assessment and treatment for dizziness, positional vertigo, and balance disturbance.",
+      "description": "Vestibular rehabilitation designed to reduce dizziness, improve stability, and help you feel safe and steady again.",
+      "icon": "compass"
+    },
+    {
+      "id": "tmj-treatment",
+      "title": "TMJ treatment",
+      "short": "Targeted care for jaw pain, clicking, tension, and related headache patterns.",
+      "description": "Hands-on treatment and movement strategies for temporomandibular dysfunction, jaw clenching, and neck-related jaw tension.",
+      "icon": "smile-plus"
+    },
+    {
+      "id": "womens-health",
+      "title": "Women’s health / urogenital disorders",
+      "short": "Respectful, discreet support for pelvic health and women’s rehabilitation needs.",
+      "description": "Treatment for pelvic pain, abdominal weakness, continence-related issues, recovery after childbirth, and women’s wellness-focused rehabilitation.",
+      "icon": "flower"
+    },
+    {
+      "id": "balance-training",
+      "title": "Balance training / falls prevention",
+      "short": "Confident movement support for older adults and anyone at risk of instability.",
+      "description": "Individualised balance retraining to improve confidence, reduce falls risk, and support independence at home and in the community.",
+      "icon": "shield-check"
+    },
+    {
+      "id": "home-visits",
+      "title": "Home visits and evaluation",
+      "short": "Professional in-home physiotherapy for convenience, safety, and continuity of care.",
+      "description": "Ideal for patients with limited mobility, post-operative needs, neurological conditions, or those who prefer treatment at home.",
+      "icon": "home"
+    },
+    {
+      "id": "neurological-rehabilitation",
+      "title": "Neurological rehabilitation",
+      "short": "Compassionate rehabilitation for neurological conditions affecting movement, strength, and balance.",
+      "description": "A measured approach to restoring mobility, coordination, confidence, and function for complex neurological presentations.",
+      "icon": "brain"
+    },
+    {
+      "id": "headaches",
+      "title": "Headaches",
+      "short": "Assessment-driven care for cervicogenic headaches, tension patterns, and jaw-related symptoms.",
+      "description": "We identify the mechanical and movement contributors to recurring headache patterns and treat them with precision and care.",
+      "icon": "headphones"
+    },
+    {
+      "id": "pilates-exercise-classes",
+      "title": "Pilates / exercise classes",
+      "short": "Guided movement sessions to improve strength, posture, control, and recovery confidence.",
+      "description": "Small-format exercise guidance for rehabilitation, maintenance, body awareness, and movement quality.",
+      "icon": "stretch"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "neck-pain",
+      "title": "Neck pain",
+      "icon": "spine"
+    },
+    {
+      "id": "lower-back-pain",
+      "title": "Lower back pain",
+      "icon": "spine"
+    },
+    {
+      "id": "shoulder-pain",
+      "title": "Shoulder pain",
+      "icon": "arm"
+    },
+    {
+      "id": "hip-pain",
+      "title": "Hip pain",
+      "icon": "activity"
+    },
+    {
+      "id": "knee-pain",
+      "title": "Knee pain",
+      "icon": "activity"
+    },
+    {
+      "id": "ankle-injuries",
+      "title": "Ankle injuries",
+      "icon": "footprints"
+    },
+    {
+      "id": "chronic-pain",
+      "title": "Chronic pain",
+      "icon": "sparkles"
+    },
+    {
+      "id": "sports-injury-recovery",
+      "title": "Sports injury recovery",
+      "icon": "dumbbell"
+    },
+    {
+      "id": "pelvic-pain",
+      "title": "Pelvic pain",
+      "icon": "flower"
+    },
+    {
+      "id": "muscle-spasms",
+      "title": "Muscle spasms",
+      "icon": "waves"
+    },
+    {
+      "id": "headaches",
+      "title": "Headaches",
+      "icon": "headphones"
+    },
+    {
+      "id": "tmj-dysfunction",
+      "title": "TMJ dysfunction",
+      "icon": "smile-plus"
+    },
+    {
+      "id": "bells-palsy",
+      "title": "Bell’s palsy",
+      "icon": "brain"
+    },
+    {
+      "id": "neurological-rehabilitation",
+      "title": "Neurological rehabilitation",
+      "icon": "brain"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "id": "personalised-treatment",
+      "title": "Personalised treatment plans",
+      "description": "No generic protocols. Your pain, goals, lifestyle, and pace of recovery guide the plan."
+    },
+    {
+      "id": "evidence-based-care",
+      "title": "Evidence-based care",
+      "description": "Clinical reasoning, up-to-date rehabilitation principles, and measurable progress underpin each treatment pathway."
+    },
+    {
+      "id": "compassionate-approach",
+      "title": "Professional and compassionate approach",
+      "description": "Warm, discreet, highly attentive care that keeps you informed, supported, and at ease."
+    },
+    {
+      "id": "convenient-locations",
+      "title": "Convenient locations",
+      "description": "Two well-positioned practice locations serving Mossel Bay, Dana Bay, and surrounding communities."
+    },
+    {
+      "id": "modern-rehabilitation",
+      "title": "Modern rehabilitation approach",
+      "description": "Hands-on treatment combined with movement re-education, strength work, and sustainable self-management."
+    },
+    {
+      "id": "home-visit-options",
+      "title": "Home visit options",
+      "description": "Ideal for post-operative recovery, mobility limitations, neurological rehabilitation, and senior care."
+    }
+  ],
+  "referrals": [
+    {
+      "title": "Trusted referral support for doctors and healthcare practitioners",
+      "description": "We value thoughtful collaboration with GPs, specialists, surgeons, biokineticists, psychologists, and allied health teams. Referrals receive timely communication, clinically sound rehabilitation planning, and continuity of care that supports the broader treatment journey.",
+      "pdfLabel": "Download Referral Form",
+      "pdfHref": "/referrals/referral-form.pdf",
+      "ctaLabel": "Refer a Patient",
+      "ctaHref": "/contact"
+    }
+  ],
+  "locations": [
+    {
+      "id": "mossel-bay",
+      "name": "Mossel Bay Practice",
+      "address": "Suite 3, Marsh Street Medical Rooms, Mossel Bay Central, Mossel Bay, 6506",
+      "phone": "+27 44 111 2040",
+      "email": "mosselbay@mossandbayphysio.co.za",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Marsh+Street+Medical+Rooms+Mossel+Bay",
+      "mapQuery": "Marsh Street Medical Rooms, Mossel Bay Central, Mossel Bay, 6506",
+      "mapEmbedSrc": "https://www.google.com/maps?q=Marsh%20Street%20Medical%20Rooms%2C%20Mossel%20Bay%20Central%2C%20Mossel%20Bay%2C%206506&output=embed"
+    },
+    {
+      "id": "dana-bay",
+      "name": "Dana Bay Practice",
+      "address": "Shop 5, Dana Bay Village Centre, Flora Road, Dana Bay, 6510",
+      "phone": "+27 44 111 2041",
+      "email": "danabay@mossandbayphysio.co.za",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Dana+Bay+Village+Centre+Flora+Road+Dana+Bay",
+      "mapQuery": "Dana Bay Village Centre, Flora Road, Dana Bay, 6510",
+      "mapEmbedSrc": "https://www.google.com/maps?q=Dana%20Bay%20Village%20Centre%2C%20Flora%20Road%2C%20Dana%20Bay%2C%206510&output=embed"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "From the first appointment I felt listened to. My shoulder pain was explained clearly, the treatment was gentle but effective, and I was back to training with confidence much sooner than I expected.",
+      "name": "Liezl M.",
+      "role": "Mossel Bay"
+    },
+    {
+      "quote": "Professional, calm, and genuinely caring. After my knee surgery, every session felt purposeful. I always knew what we were working on and why it mattered.",
+      "name": "Johan P.",
+      "role": "Dana Bay"
+    },
+    {
+      "quote": "The balance work and home advice made a real difference for my mother. She feels steadier, safer, and much more confident moving around the house.",
+      "name": "Marina V.",
+      "role": "Mossel Bay family member"
+    },
+    {
+      "quote": "As an active runner, I wanted rehabilitation that was specific to my goals. The clinic gave me exactly that - smart rehab, excellent guidance, and a premium experience from start to finish.",
+      "name": "Carla S.",
+      "role": "Garden Route athlete"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a referral?",
+      "a": "No. You can book directly for physiotherapy. If you have been referred by a doctor or specialist, we are happy to coordinate with them as part of your care."
+    },
+    {
+      "q": "What should I expect during my first session?",
+      "a": "Your first session includes a detailed discussion of your symptoms, a movement and physical assessment, treatment where appropriate, and a clear explanation of your rehabilitation plan."
+    },
+    {
+      "q": "Do you treat sports injuries?",
+      "a": "Yes. We treat acute and overuse injuries for active individuals and athletes, with rehabilitation designed for safe return to training and performance."
+    },
+    {
+      "q": "Do you offer home visits?",
+      "a": "Yes. Home visits can be arranged for patients recovering from surgery, older adults, patients with limited mobility, and those needing neurological rehabilitation support."
+    },
+    {
+      "q": "Which conditions do you treat?",
+      "a": "We treat musculoskeletal pain, spinal pain, sports injuries, chronic pain, pelvic health concerns, TMJ dysfunction, vestibular disorders, headaches, balance problems, and neurological rehabilitation needs."
+    },
+    {
+      "q": "Which areas do you serve?",
+      "a": "We serve Mossel Bay, Dana Bay, and surrounding Garden Route communities, with in-practice appointments and selected home visits."
+    }
+  ],
+  "contact": {
+    "phone": "+27 44 111 2040",
+    "whatsapp": "+27 72 555 0188",
+    "email": "hello@mossandbayphysio.co.za",
+    "appointmentCta": "/contact"
+  },
+  "org": {
+    "brandName": "Moss & Bay Physiotherapy",
+    "domain": "https://www.mossandbayphysio.co.za",
+    "city": "Mossel Bay",
+    "region": "Western Cape",
+    "country": "South Africa"
+  },
+  "pageMeta": {
+    "home": {
+      "title": "Premium Physiotherapy in Mossel Bay & Dana Bay | Moss & Bay Physiotherapy",
+      "description": "Elegant, evidence-based physiotherapy, rehabilitation, women’s health, vestibular care, sports injury treatment, and home visits in Mossel Bay and Dana Bay."
+    },
+    "about": {
+      "title": "About | Moss & Bay Physiotherapy",
+      "description": "Learn about the premium clinical philosophy behind Moss & Bay Physiotherapy and how patient-first rehabilitation is delivered."
+    },
+    "services": {
+      "title": "Services | Moss & Bay Physiotherapy",
+      "description": "Explore premium physiotherapy services including sports rehab, pain management, women’s health, balance care, neurological rehab, and more."
+    },
+    "conditions": {
+      "title": "Conditions Treated | Moss & Bay Physiotherapy",
+      "description": "Discover the range of conditions treated by Moss & Bay Physiotherapy, from spinal pain and sports injuries to vestibular and pelvic health concerns."
+    },
+    "referrals": {
+      "title": "Referrals | Moss & Bay Physiotherapy",
+      "description": "A professional referral pathway for doctors and practitioners, with continuity of care and clear communication."
+    },
+    "locations": {
+      "title": "Locations | Moss & Bay Physiotherapy",
+      "description": "View the Mossel Bay and Dana Bay practice locations, maps, contact details, and directions."
+    },
+    "contact": {
+      "title": "Contact | Moss & Bay Physiotherapy",
+      "description": "Book an appointment, send an enquiry, or contact the Mossel Bay and Dana Bay physiotherapy team."
+    }
+  },
+  "homeIntro": {
+    "trustHeading": "Trusted clinical rehabilitation",
+    "servicesHeading": "Signature services",
+    "conditionsHeading": "Conditions treated",
+    "whyUsHeading": "Why choose us",
+    "referralsHeading": "Practitioner referrals",
+    "locationsHeading": "Visit a location that suits you",
+    "testimonialsHeading": "Kind words from patients",
+    "faqHeading": "Frequently asked questions",
+    "contactHeading": "Book your next step in recovery"
+  },
+  "aboutPage": {
+    "eyebrow": "About the practice",
+    "title": "Premium care that feels calm, intelligent, and genuinely personal.",
+    "description": "Moss & Bay Physiotherapy was shaped around a simple idea: rehabilitation should be clinically excellent, beautifully delivered, and clear enough for patients to feel confident in every step.",
+    "storyTitle": "What patients experience",
+    "story": "Appointments are intentionally unrushed. Assessment is precise, treatment is thoughtful, and each recommendation is tied to meaningful progress - whether that means getting out of pain, returning to sport, recovering after surgery, or simply feeling secure and steady again.",
+    "philosophyTitle": "Our care philosophy",
+    "philosophy": "We believe premium physiotherapy is not only about expertise. It is about how that expertise is delivered: with warmth, discretion, consistency, and a commitment to measurable results. We combine hands-on therapy with movement education, exercise prescription, and collaboration with the wider healthcare team where needed.",
+    "credentialsTitle": "Professional confidence",
+    "credentials": [
+      "Evidence-based treatment planning rooted in clinical reasoning",
+      "One-to-one sessions with focused attention and continuity of care",
+      "Clear communication with patients, families, and referring practitioners",
+      "Support for acute pain, complex rehabilitation, chronic conditions, and preventive care"
+    ],
+    "processTitle": "How care unfolds",
+    "process": [
+      "Comprehensive assessment and goal setting",
+      "Hands-on treatment and movement re-education",
+      "Progressive exercise and self-management planning",
+      "Review, refinement, and sustained recovery support"
+    ]
+  },
+  "servicesPage": {
+    "eyebrow": "What we offer",
+    "title": "Services designed for meaningful recovery, resilience, and confident movement.",
+    "description": "Our services are tailored for modern rehabilitation - combining manual therapy, exercise, education, and thoughtful progression in a calm premium setting.",
+    "highlightTitle": "Best suited for",
+    "highlights": [
+      "Adults living with pain or stiffness",
+      "Athletes and active patients returning to performance",
+      "Post-operative and injury rehabilitation",
+      "Older adults needing balance support and falls prevention",
+      "Pelvic health and women’s wellbeing-focused care",
+      "Patients requiring selected home-based physiotherapy"
+    ]
+  },
+  "conditionsPage": {
+    "eyebrow": "Clinical focus",
+    "title": "Thoughtful treatment across the conditions patients most commonly need help with.",
+    "description": "Each condition is approached with a full assessment of contributing factors, movement patterns, load tolerance, and the practical demands of your daily life or sport.",
+    "journeyTitle": "Our rehabilitation lens",
+    "journey": [
+      "Clarify what is driving symptoms",
+      "Reduce pain and restore confidence in movement",
+      "Rebuild strength, control, and capacity",
+      "Support long-term resilience and prevention"
+    ]
+  },
+  "referralsPage": {
+    "eyebrow": "Referrals",
+    "title": "A polished referral experience for practitioners who value continuity of care.",
+    "description": "We welcome referrals from doctors, specialists, surgeons, psychologists, occupational therapists, speech therapists, and allied practitioners. Our role is to support the treatment plan with clear rehabilitation reasoning, attentive patient care, and professional communication.",
+    "collaborationTitle": "What referring practitioners can expect",
+    "collaborationPoints": [
+      "Timely scheduling and respectful patient onboarding",
+      "Goal-oriented physiotherapy plans that align with diagnosis and outcomes",
+      "Clear communication where clinically appropriate",
+      "Rehabilitation support across musculoskeletal, vestibular, neurological, pelvic health, and post-operative care"
+    ],
+    "processTitle": "Referral process",
+    "process": [
+      "Download the referral form or contact the practice directly",
+      "Share relevant clinical notes, imaging, or post-operative guidance where available",
+      "We assess, treat, and communicate key rehabilitation findings where appropriate"
+    ],
+    "note": "If you prefer, referrals can also be sent by email and our team will assist with the booking process."
+  },
+  "locationsPage": {
+    "eyebrow": "Locations",
+    "title": "Two calm, convenient practice settings across Mossel Bay and Dana Bay.",
+    "description": "Choose the location that best suits your routine. Each practice offers the same refined standard of care, clear communication, and welcoming clinical environment."
+  },
+  "contactPage": {
+    "eyebrow": "Contact us",
+    "title": "Book an appointment or send a confidential enquiry.",
+    "description": "We make it easy to arrange physiotherapy, ask a question, or request a referral-related appointment. Call, WhatsApp, email, or use the enquiry form below.",
+    "formTitle": "Appointment enquiry form",
+    "formDescription": "This frontend-only form prepares an enquiry email in your mail app with your details pre-filled.",
+    "emergencyNote": "If you have a medical emergency, please contact your doctor or the nearest emergency service."
+  },
+  "ctaSection": {
+    "title": "Ready to move better, recover well, and feel supported every step of the way?",
+    "description": "Book your appointment, ask a question, or contact the practice that suits you best.",
+    "primary": {
+      "label": "Book Appointment",
+      "href": "/contact"
+    },
+    "secondary": {
+      "label": "Call Now",
+      "href": "tel:+27441112040"
+    },
+    "tertiary": {
+      "label": "WhatsApp",
+      "href": "https://wa.me/27725550188"
+    }
+  },
+  "footer": {
+    "description": "Premium physiotherapy, rehabilitation, and wellness-led movement care for Mossel Bay, Dana Bay, and the surrounding Garden Route.",
+    "quickLinksTitle": "Explore",
+    "contactTitle": "Contact",
+    "copyright": "© 2026 Moss & Bay Physiotherapy. All rights reserved."
+  }
+}
